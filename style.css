@@ -232,3 +232,109 @@ body {
   height: 100%;
   width: 100%;
 }
+
+#page8 .heading {
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#page8 .heading h1 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 6vw;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+#page8 .heading button {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 200;
+  background: white;
+  color: #0a3cce;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* page 9 styling here */
+#page9 {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #0a3cce;
+}
+.left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+  position: relative;
+  padding-left: 40px;
+}
+.right {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left h1 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 6vw;
+  color: white;
+}
+
+.right img {
+  object-fit: cover;
+  border-radius: 25px;
+  height: 55%;
+  width: 85%;
+}
+
+/* page 10 styling here */
+#page10 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: #0a3cce;
+}
+.right-content {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  left: 40%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right-content .info {
+  height: 33.3%;
+  width: 100%;
+  padding: 30px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.right-content .info h1 {
+  font-size: 2vw;
+  margin-bottom: 15px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.right-content .info p {
+  font-size: 1.2vw;
+  width: 80%;
+  font-weight: 200;
+}
