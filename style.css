@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  background-color: #1137ca;
+}
+#main {
+  position: relative;
+  overflow: hidden;
+}
+#page1 {
+  height: 100vh;
+  width: 100vw;
+
+  position: relative;
+}
+#page1 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#page1 > nav {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.menu button {
+  margin: 0px 10px;
+  padding: 8px 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background: transparent;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+.content {
+  position: absolute;
+  height: 40vh;
+  width: 50vw;
+  bottom: 5%;
+  left: 10%;
+}
+.content h1 {
+  font-size: 5vw;
+  font-family: "Poppins";
+  font-weight: 300;
+  color: white;
+}
+.content .para p {
+  font-size: 20px;
+  color: white;
+}
+.content .para button {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 200;
+  background: white;
+  color: #0a3cce;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+}
+.content .para {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  background: #0a3cce;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0vw 10vw;
+  color: white;
+}
+#page2 h3 {
+  font-family: "Poppins";
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+#page2 h1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 80%;
+  font-size: 3vw;
+  color: #dadada69;
+}
+
+#page3 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: red;
+}
+#page3 > canvas {
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+}
+
+#page4 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1137ca;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  padding: 0vw 10vw;
+}
+
+#page4 > h3 {
+  font-family: "Poppins";
+  font-weight: 200;
+  margin-bottom: 10px;
+  color: white;
+}
+#page4 > h1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 80%;
+  font-size: 3vw;
+  color: #dadada69;
+}
+
+/* page5 styling */
+#page5 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#page5 > canvas {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+/* page 6 styling here */
+#page6 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1137ca;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  padding: 0vw 10vw;
+}
+
+#page6 > h3 {
+  font-family: "Poppins";
+  font-weight: 200;
+  margin-bottom: 10px;
+  color: white;
+}
+#page6 > h1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 80%;
+  font-size: 3vw;
+  color: #dadada69;
+}
+
+/* page 7 styling here */
+#page7 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: #0a3cce;
+}
+
+#page7 > canvas {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+#page7 .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30vh; /* or 30vw */
+  width: 30vh; /* match this with height */
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  z-index: 5;
+}
+
+#page7 .circle .sub-cir {
+  height: 70%;
+  width: 70%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+/* page 8 styling here */
+#page8 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: #0a3cce;
+}
+
+#page8 > video {
+  height: 100%;
+  width: 100%;
+}
