@@ -475,7 +475,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.384);
+  border-top: 1px solid rgba(255, 255, 255, 0.384);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.384);
   z-index: 99;
 }
 #page14 .social h1 {
